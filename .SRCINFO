@@ -1,0 +1,23 @@
+pkgbase = lcdproc
+	pkgdesc = Utility to drive one or more LCD (and LCD-like) devices
+	pkgver = 0.5.6
+	pkgrel = 2
+	url = http://lcdproc.omnipotent.net/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = libusb-compat
+	optdepends = perl: needed for some lcdproc tools
+	backup = etc/LCDd.conf
+	backup = etc/lcdexec.conf
+	backup = etc/lcdproc.conf
+	backup = etc/lcdvc.conf
+	source = http://switch.dl.sourceforge.net/sourceforge/lcdproc/lcdproc-0.5.6.tar.gz
+	source = lcdd
+	source = lcdd.service
+	sha256sums = bd2f43c30ff43b30f43110abe6b4a5bc8e0267cb9f57fa97cc5e5ef9488b984a
+	sha256sums = b43dfd02e38f0149a02396cdc355e5ca2b51217b2da6092de56d426490abfcab
+	sha256sums = 0acdc0fb9668e6d5e023349874301153a16935e1ad757d550c426a9a7ac64638
+
+pkgname = lcdproc
+
