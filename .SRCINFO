@@ -1,7 +1,7 @@
 pkgbase = lcdproc
 	pkgdesc = Utility to drive one or more LCD (and LCD-like) devices
 	pkgver = 0.5.7
-	pkgrel = 1
+	pkgrel = 2
 	url = http://lcdproc.omnipotent.net/
 	arch = i686
 	arch = x86_64

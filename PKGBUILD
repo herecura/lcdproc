@@ -4,7 +4,7 @@
 
 pkgname=lcdproc
 pkgver=0.5.7
-pkgrel=1
+pkgrel=2
 pkgdesc="Utility to drive one or more LCD (and LCD-like) devices"
 arch=('i686' 'x86_64')
 url="http://lcdproc.omnipotent.net/"
@@ -25,6 +25,8 @@ source=(
 	"http://downloads.sourceforge.net/$pkgname/$pkgname-$pkgver.tar.gz"
 	'lcdd.service'
 )
+sha256sums=('843007d377adc856529ed0c7c42c9a7563043f06b1b73add0372bba3a3029804'
+            '0acdc0fb9668e6d5e023349874301153a16935e1ad757d550c426a9a7ac64638')
 
 build() {
 	cd "$pkgname-$pkgver"
@@ -45,5 +47,3 @@ package() {
 	sed -e "s/server\/drivers\//\/usr\/lib\/lcdproc\//g" -i "$pkgdir/etc/LCDd.conf"
 	install -Dm644 "$srcdir/lcdd.service" "$pkgdir/usr/lib/systemd/system/lcdd.service"
 }
-sha256sums=('843007d377adc856529ed0c7c42c9a7563043f06b1b73add0372bba3a3029804'
-            '0acdc0fb9668e6d5e023349874301153a16935e1ad757d550c426a9a7ac64638')
