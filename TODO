@@ -1,0 +1,6 @@
+configure: WARNING: freetype does not seem to be installed
+configure: WARNING: The glcdlib driver needs glcdproclib/glcdprocdriver.h
+configure: WARNING: Could not find libugpio, not building hd44780-gpio driver
+configure: WARNING: The irman driver needs the irman library.
+configure: WARNING: The mdm166a driver needs the hid library
+configure: WARNING: The mx5000 driver needs libmx5000/mx5000.h
