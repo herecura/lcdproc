@@ -1,10 +1,9 @@
-# $Id$
 # Maintainer: BlackEagle <ike DOT devolder AT gmail DOT com>
 # Contributor: Bernhard Walle <bernhard.walle@gmx.de>
 
 pkgname=lcdproc
 pkgver=0.5.9
-pkgrel=1
+pkgrel=2
 pkgdesc="Utility to drive one or more LCD (and LCD-like) devices"
 arch=('x86_64')
 url="http://lcdproc.omnipotent.net/"
